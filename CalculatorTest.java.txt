@@ -1,0 +1,11 @@
+//CalculatorTest.java//
+import org.junit.Test;
+import statis org.junit.Assert.asserEquals;
+public calss CalculatorTest
+{
+Calculator calc=new Calculator():
+@Test public void test Addition(){assertEquals(15, calc.add(10,5));}
+@Test public void test Subraction(){assertEquals(5, calc.subract(10,5));}
+@Test public void test Multiplication(){assertEquals(50, calc.multiply(10,5));}
+@Test public void test Division(){assertEquals(2, calc.divide(10,5));}
+}
